@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
   background-color: #f9f9f9; /* Màu nền nhẹ nhàng */
   color: #333; /* Màu chữ chính */
+    
 }
 
 /* Phần Section Dịch Vụ */
@@ -157,6 +158,8 @@ body {
   font-family: "Roboto", sans-serif; /* Hoặc font bạn muốn */
   margin: 20px; /* Thêm margin để dễ nhìn */
   background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
 }
 
 /* Kiểu dáng cho mỗi item dịch vụ */
@@ -1027,4 +1030,39 @@ a:hover {
   .concept-grid-4-col {
     grid-template-columns: 1fr;
   }
+}
+
+.hero-section {
+    width: 100%;
+    height: 600px; /* Chiều cao cố định cho banner */
+    overflow: hidden; /* Quan trọng để cắt ảnh thừa */
+    margin-bottom: 50px; /* Tạo khoảng trống ở dưới banner */
+    margin-top: 50px;
+}
+
+.hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Đảm bảo ảnh co giãn và lấp đầy vùng chứa */
+    object-position: center; /* Đặt tâm ảnh ở giữa */
+}
+
+/* Định dạng cho phần nội dung dịch vụ */
+.services-section {
+    text-align: center; /* Căn giữa tiêu đề và mô tả */
+    padding: 0 20px;
+}
+
+.content-section {
+    margin: 0;
+    padding: 0;
+}
+
+.content-section h2 {
+    font-weight: 700;
+}
+
+.content-section em {
+    font-style: italic;
+    color: #555;
 }
