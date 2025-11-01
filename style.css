@@ -1066,3 +1066,66 @@ a:hover {
     font-style: italic;
     color: #555;
 }
+.khung5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+/* Khung chứa ảnh và đoạn văn */
+.anh {
+  display: flex;
+  align-items: center;
+  gap: 0px; /* khoảng cách giữa ảnh và chữ */
+  background-color: #fff;
+  width: 80%;
+  max-width: 1200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+/* Ảnh */
+.anh img {
+  width: 49%; /* ảnh chiếm 49% khung */
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Văn bản */
+.doanvan {
+  width: 50%;
+  background-color: #fdecec; /* màu hồng nhạt nhẹ */
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.doanvan h5 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.doanvan p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+/* Đoạn trích cuối */
+.doancuoi {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  margin-top: 30px;
+  line-height: 1.8;
+}
+
+.doancuoi b {
+  font-weight: 600;
+}
+
